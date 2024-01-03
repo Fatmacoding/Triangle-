@@ -217,6 +217,28 @@ for i in range(4,-1,-1):
 print()
 
 
+print('Figure N°28 :')
+print()
+for i in range(4,-1,-1):            
+        if i == 0:
+            print( (y * (4 - i)) + x + (y * (4 - i) ) )  
+        elif i == 4:
+            print(x * (i + 5))   
+        else:
+            print( (y * (4 - i)) + x + (y * (i + (i - 1)) + x + (y * (4 - i) ) ) ) 
 
+for i in range(0,5):            
+        if i == 0:
+            print( (y * (4 - i)) + x + (y * (4 - i) ) )  
+        elif i == 4:
+            print(x * (i + 5))   
+        else:
+            print( (y * (4 - i)) + x + (y * (i + (i - 1)) + x + (y * (4 - i) ) ) ) 
+print()
+
+print('Figure N°29 :')
+print()
+for i in range(5):
+    print(x*5)
 
 
