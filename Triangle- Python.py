@@ -1,6 +1,5 @@
 x = '*'
 y = ' '
-
 print('Figure N°2 :')    
 print()
 for i in range(5,0,-1):
